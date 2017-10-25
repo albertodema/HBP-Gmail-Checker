@@ -1,3 +1,4 @@
+
 # HBP-Gmail-Checker
 Hi this program has the following objective : scan one and one only gmail account (your account!) 
 to find if some of yours friends/collegues has been pwned .
@@ -18,6 +19,8 @@ of the risk.
 
 Now we can discuss how this tool work and how to use it.
 It's a .NET (standard .NET) console application and before using it you have to personalize it changing the HBP_Gmail_Checker.exe.config file
+
+In case you don't know how to compile, I added a zip file containing all the binaries.
 
 Here the parts that you have to change:
 1)  maxMessagesToBeScanned property , set into the value field the max amount of messages you want to scan
