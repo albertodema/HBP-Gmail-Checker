@@ -15,6 +15,8 @@ I specifically escluded the second option because you have to decide with email 
 are really people that you know and care about and use the way you think it's the best one to alert them
 of the risk.
 
+In case you don't know how to compile, I added a zip file containing all the binaries.
+
 Now we can discuss how this tool work and how to use it.
 It's a .NET (standard .NET) console application and before to use you have to personalize it changing the HBP_Gmail_Checker.exe.config file
 Here the parts that you have to change:

@@ -18,6 +18,8 @@ I specifically escluded the second option because you have to decide with email 
 are really people that you know and care about and use the way you think it's the best one to alert them
 of the risk.
 
+In case you don't know how to compile, I added a zip file containing all the binaries.
+
 Now we can discuss how this tool work and how to use it.
 It's a .NET (standard .NET) windows application and those are the parameters you have to change with UI:
 1)  maxMessagesToBeScanned property , set into the value field the max amount of messages you want to scan
