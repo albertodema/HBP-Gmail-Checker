@@ -89,6 +89,7 @@
     <None Include="client_secret.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="HBP_Gmail_Checker_bin.zip" />
     <None Include="packages.config" />
     <None Include="SharpPwned.NET.deps.json" />
   </ItemGroup>
