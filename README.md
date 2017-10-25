@@ -1,8 +1,8 @@
-# HBP-Gmail-Checker
+# b HBP-Gmail-Checker
 Hi this program has the following objective : scan one and one only gmail account (your account!) 
 to find if some of yours friends/collegues has been pwned .
 By using this program you agree on the following:
-1) Allow this tool to scan your gmail emails (not the content just the "From" field)
+1) Allow this tool to scan your gmail emails (not the body content just the "From" field)
 2) Allow this tool to scan build a list of distinct email addresses that have written an email to you
 3) Check if any email account of this list has been pwned 
 4) Obtain a final report (simple txt file) of email accounts pwned
@@ -12,12 +12,12 @@ With this tool you will NOT:
 1) Know where and how those emails accounts have been pwned
 2) Automatically alert those accounts of the risk
 
-I specifically escluded the second option because you have to decide with email accounts 
-are really people that you know and care about and use the way you think it's the best one to alert them
+I specifically escluded the second option because you have to decide which email accounts 
+are really people that you know and care about and use the way you think it's the best to alert them
 of the risk.
 
 Now we can discuss how this tool work and how to use it.
-It's a .NET (standard .NET) console application and before to use you have to personalize it changing the HBP_Gmail_Checker.exe.config file
+It's a .NET (standard .NET) console application and before using it you have to personalize it changing the HBP_Gmail_Checker.exe.config file
 
 Here the parts that you have to change:
 1)  maxMessagesToBeScanned property , set into the value field the max amount of messages you want to scan
@@ -26,7 +26,7 @@ Here the parts that you have to change:
 4)  userId property, set into the value field the gmail account to be scanned (I suggest to you to leave "me")
 5)  headerToProcess, set into the value field the header name you want to process  (I suggest to you to leave "From" )
 6)  messageQueryFilter, this is the MOST IMPORTANT value you have to set in order to avoid to scan thousands of messages! 
-    This the gmail filter to search only for specific emails, I provided a sample one that escludes usual newsletters, etc..., 
+    This the gmail filter to search only for specific patterns, I provided a sample one that escludes usual newsletters, etc..., 
 	but look CAREFULLY to it to avoid to process too many emails .
 
 Once you have finished with the HBP_Gmail_Checker.exe.config, you can execute the HBP_Gmail_Checker.exe,
