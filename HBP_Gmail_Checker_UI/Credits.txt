@@ -1,0 +1,5 @@
+﻿Credits:
+Troy Hunt I Have Been Pwned Api : https://haveibeenpwned.com/API/v2
+.NET I Have Been Pwned Api library by Valters Tomsons : https://github.com/FaithLV/SharpPwned.NET
+Google GMail API: https://developers.google.com/gmail/api/v1/reference/
+StackOverflow articles : https://stackoverflow.com/questions/36448193/how-to-retrieve-my-gmail-messages-using-gmail-api
