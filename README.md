@@ -1,4 +1,4 @@
-# b HBP-Gmail-Checker
+# HBP-Gmail-Checker
 Hi this program has the following objective : scan one and one only gmail account (your account!) 
 to find if some of yours friends/collegues has been pwned .
 By using this program you agree on the following:
