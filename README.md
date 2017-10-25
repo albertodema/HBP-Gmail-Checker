@@ -18,6 +18,7 @@ of the risk.
 
 Now we can discuss how this tool work and how to use it.
 It's a .NET (standard .NET) console application and before to use you have to personalize it changing the HBP_Gmail_Checker.exe.config file
+
 Here the parts that you have to change:
 1)  maxMessagesToBeScanned property , set into the value field the max amount of messages you want to scan
 2)  labelBeScanned property, set into the value field the gmail label you want to scan (I suggest to you to leave "INBOX")
