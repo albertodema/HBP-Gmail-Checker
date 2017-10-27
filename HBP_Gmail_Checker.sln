@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBP_Gmail_Checker", "HBP_Gm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBP_Gmail_Checker_UI", "HBP_Gmail_Checker_UI\HBP_Gmail_Checker_UI.csproj", "{E57D0DEB-A03D-4148-86D8-EB585908062A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBP_Graph_Checker", "HBP_Graph_Checker\HBP_Graph_Checker.csproj", "{9D437F47-F691-406D-BAB6-BD41D20BB40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E57D0DEB-A03D-4148-86D8-EB585908062A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E57D0DEB-A03D-4148-86D8-EB585908062A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E57D0DEB-A03D-4148-86D8-EB585908062A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D437F47-F691-406D-BAB6-BD41D20BB40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D437F47-F691-406D-BAB6-BD41D20BB40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D437F47-F691-406D-BAB6-BD41D20BB40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D437F47-F691-406D-BAB6-BD41D20BB40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
